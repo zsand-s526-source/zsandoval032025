@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(12, 130, 151);
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+dl {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+dt {
+    padding: 1rem;
+    background-color: rgb(86, 205, 234);
+    font-weight: bold;
+}
+
+dd {
+    padding: 1rem;
+}
+
+p 
+{
+    width: 80%;
+    background-color: wheat;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 2px solid silver;
+}
+
+ul{
+    width: 70%;
+    padding: 1rem;
+    margin: auto;
+    border: 1px solid rgb(227, 211, 211);
+    padding-left: 4rem;
+    background-color: white;
+}
+
+a 
+{
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}

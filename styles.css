@@ -1,0 +1,95 @@
+html 
+{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(147, 196, 224);
+}
+
+.container {
+  max-width: 75rem;
+  min-height: 10rem;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
+}
+
+#pageheader {
+  background-color: rgb(133, 159, 215);
+  min-height: auto;
+  padding: 0.25rem;
+}
+
+#logo {
+  background-image: url(Images/snoopylogo.png);
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+#pageheader .container {
+  background-color: rgb(255, 255, 255);
+  min-height: auto;
+}
+
+#pageheader nav {
+  text-align: center;
+}
+
+#media {
+  background-color: lightblue;
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/snoopyimage.png);
+  background-size: cover;
+  aspect-ratio: 16 / 9;
+}
+
+#career {
+  background-color: rgb(205, 235, 172);
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#pagecontent {
+  background-color: rgb(144, 238, 238);
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#semester1 {
+  background-color: rgb(150, 196, 221);
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#semester2 {
+  background-color: rgb(144, 188, 238);
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#pagefooter {
+  background-color: rgb(173, 181, 223);
+  min-height: auto;
+  padding: 1rem;
+}
+#pagefooter .container {
+  background-color: rgb(255, 255, 255);
+  min-height: auto;
+  text-align: center;
+}
+
+#subfooter {
+  background-color: steelblue;
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+audio {
+  border: 5px solid steelblue;
+  background-color: steelblue;
+  display: block;
+  margin: auto;
+}
