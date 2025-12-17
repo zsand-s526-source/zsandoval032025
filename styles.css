@@ -28,13 +28,30 @@ body {
 }
 
 #pageheader .container {
-  background-color: rgb(255, 255, 255);
   min-height: auto;
 }
 
 #pageheader nav {
   text-align: center;
 }
+
+#pageheader nav ul {
+  background-color: rgb(255, 255, 255);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#pageheader nav ul li {
+  border: 2px solid silver;
+  padding: 1rem;
+  margin: 2px;
+  background-color: aliceblue;
+}
+#pageheader nav ul li:hover {
+  background-color: rgb(154, 194, 229);
+}
+
 
 #media {
   background-color: lightblue;
@@ -106,15 +123,21 @@ audio {
   margin: auto;
 }
 
-@media screen and (min-width:650px)
-{
+@media screen and (min-width:650px){
+#pageheader nav ul {
+  margin-bottom: 2rem;
+}
+  #pageheader nav ul li {
+    display: inline-block;
+  }
+
   #pagecontent {
-    background-color: red;
+    background-color: rgb(182, 185, 210);
   }
 }
 
 @media screen and (min-width:1000px)
 {
   #pagecontent{
-    background-color: purple;}
+    background-color: rgb(183, 228, 239);}
 }
