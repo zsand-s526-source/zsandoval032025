@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexboxJCAI</title>
+    <style>
+      h1,
+      h2 {
+        text-align: center;
+      }
+      #container001 {
+        height: 600px;
+        width: 600px;
+        background-color: steelblue;
+        border: 4px solid black;
+        margin: auto;
+        margin-bottom: 1rem;
+      }
+      #container002 {
+        height: 600px;
+        width: 600px;
+        background-color: steelblue;
+        border: 4px solid black;
+        margin: auto;
+      }
+      .box {
+        height: 50px;
+        width: 50px;
+        border: 1px solid black;
+        padding: 1rem;
+        background-color: lightgoldenrodyellow;
+      }
+      /* Justify-Content and Align_Items */
+      #container001 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
+      #container002 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flexbox</h1>
+    <h2>flex-direction</h2>
+    <h2>Justify Content</h2>
+    <h2>Align-Items</h2>
+
+    <div id="container001">
+      <div class="box">Item001</div>
+      <div class="box">Item002</div>
+      <div class="box">Item003</div>
+      <div class="box">Item004</div>
+      <div class="box">Item005</div>
+    </div>
+
+    <div id="container002">
+      <div class="box">Item001</div>
+      <div class="box">Item002</div>
+      <div class="box">Item003</div>
+      <div class="box">Item004</div>
+      <div class="box">Item005</div>
+    </div>
+  </body>
+</html>
