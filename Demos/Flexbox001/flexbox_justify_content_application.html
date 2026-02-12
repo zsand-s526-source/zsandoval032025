@@ -1,13 +1,11 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox Justify Content Application</title>
     <style>
-        /* ul#list {
+      /* ul#list {
             border: 1px solid black;
             padding: 1rem;
             display: flex;
@@ -19,82 +17,89 @@
     </style>
 
     <style>
-        button {
-            padding: .5rem;
-        }
+      button {
+        padding: 0.5rem;
+      }
 
-        .card {
-            border: 1px solid #ccc;
-            width: 200px;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            border-radius: 5px;
-        }
-        #list {
-            display: flex;
-            list-style-type: none;
-            border: 1px solid black;
-            padding: 1rem;
-            width: 75%;
-            margin: auto;
-            justify-content: space-between;
-        }
-        #buttons {
-            display: flex;
-            justify-content: space-around;
-            background-color: lightblue; 
-            width: 75%;
-            margin: auto;
-            padding: 1rem;
-        }
-        #card {
-            display: flex;
-        }
+      .card {
+        border: 1px solid #ccc;
+        width: 200px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+      }
+      #list {
+        display: flex;
+        list-style-type: none;
+        border: 1px solid black;
+        padding: 1rem;
+        width: 75%;
+        margin: auto;
+        justify-content: space-between;
+      }
+      #buttons {
+        display: flex;
+        justify-content: space-around;
+        background-color: lightblue;
+        width: 75%;
+        margin: auto;
+        padding: 1rem;
+      }
+      ul#list {
+        background-color: red;
+      }
+      div#cards {
+        background-color: lightgreen;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>Flexbox Justify Content Application</h1>
 
     <h2>Lists</h2>
     <ul id="list">
-        <li>Inline</li>
-        <li>Block</li>
-        <li>Flexbox</li>
-        <li>Grid</li>
+      <li>Inline</li>
+      <li>Block</li>
+      <li>Flexbox</li>
+      <li>Grid</li>
     </ul>
 
     <h2>Buttons</h2>
 
     <div id="buttons">
-    <button type="button">Button 1</button>
-    <button type="button">Button 2</button>
-    <button type="button">Button 3</button>
-    <button type="button">Button 4</button>
-    <button type="button">Button 5</button>
+      <button type="button">Button 1</button>
+      <button type="button">Button 2</button>
+      <button type="button">Button 3</button>
+      <button type="button">Button 4</button>
+      <button type="button">Button 5</button>
     </div>
 
     <h2>Cards</h2>
-    <div class="card">
+    <div id="cards">
+      <div class="card">
         <h3>Card Title 1</h3>
         <p>This is a description for card 1.</p>
-    </div>
-    <div class="card">
+      </div>
+      <div class="card">
         <h3>Card Title 2</h3>
         <p>This is a description for card 1.</p>
-    </div>
-    <div class="card">
+      </div>
+      <div class="card">
         <h3>Card Title 3</h3>
         <p>This is a description for card 1.</p>
+      </div>
     </div>
 
     <h2>Link Lists</h2>
     <ul>
-        <li><a href="https://google.com/">Google</a></li>
-        <li><a href="https://google.com/">Google</a></li>
-        <li><a href="https://google.com/">Google</a></li>
-        <li><a href="https://google.com/">Google</a></li>
+      <li><a href="https://google.com/">Google</a></li>
+      <li><a href="https://google.com/">Google</a></li>
+      <li><a href="https://google.com/">Google</a></li>
+      <li><a href="https://google.com/">Google</a></li>
     </ul>
-</body>
-
+  </body>
 </html>
