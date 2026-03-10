@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixed Menu</title>
+
+    <style>
+      /* Mobile First */
+      html {
+        /* Temporary - delete */
+        height: 200%;
+      }
+      body {
+        background-color: seagreen;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #pageheader {
+        background-color: lime;
+        padding: 1rem;
+        /* Default */
+        position: static;
+      }
+      img#logo {
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: auto;
+      }
+      #pageheader h1 {
+        color: orangered;
+        text-align: center;
+        /* Remove color */
+        background-color: white;
+      }
+      #pageheader nav {
+        background-color: seagreen;
+        padding: 0.5rem;
+        border-radius: 10px;
+      }
+      #pageheader ul {
+        background-color: gold;
+        padding: 0.5rem;
+        list-style-type: none;
+      }
+      #pageheader li {
+        text-align: center;
+        padding: 0.5rem;
+        background-color: olive;
+        border: 1px solid white;
+      }
+      #pageheader a {
+        color: white;
+        text-decoration: none;
+      }
+
+      /* Non pageheader items */
+      h2 {
+        color: white;
+      }
+      p {
+        line-height: 1.5;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="pageheader">
+      <!-- Start the logo and header -->
+      <div id="fblogoheader">
+        <img id="logo" src="Images/paws_logo.png" alt="Paws Logo" />
+        <h1>Paws and Whiskers</h1>
+      </div>
+      <!-- End the logo and header -->
+
+      <!-- Start navigation  -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Pets</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+      <!-- End navigation  -->
+    </header>
+
+    <main>
+      <h2>Fixed Menu</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+        dolore illo eaque labore, voluptatem eius quisquam asperiores quibusdam
+        consectetur necessitatibus explicabo saepe quam! Temporibus id
+        perspiciatis, quasi ipsa accusantium facere.
+      </p>
+    </main>
+  </body>
+</html>
