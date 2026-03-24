@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards with Icons</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      body {
+        background-color: slategray;
+        color: antiquewhite;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+      }
+      h1,
+      h2 {
+        text-align: center;
+      }
+      .fbcards {
+        border: 1px solid antiquewhite;
+        background-color: rgb(42, 46, 49);
+        padding: 1rem;
+        max-width: 1280px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1rem;
+      }
+      .cardcircle {
+        background-color: black;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        border-radius: 50%;
+        border: 2px solid antiquewhite;
+        margin: auto;
+      }
+      .card {
+        background-color: steelblue;
+        padding: 1rem;
+        border: 2px solid antiquewhite;
+        border-radius: 8px;
+        text-align: center;
+      }
+      @media screen and (min-width: 700px) {
+        .fbcards {
+          flex-direction: row;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Cards with Icons</h1>
+    <h2>Font Awesome</h2>
+
+    <section class="fbcards">
+      <article class="card">
+        <div class="cardcircle">
+          <i class="fa-solid fa-paw"></i>
+        </div>
+        <h3>Card Header</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas alias
+          quidem consectetur quaerat voluptas sed.
+        </p>
+      </article>
+      <article class="card">
+        <div class="cardcircle">
+          <i class="fa-solid fa-paw"></i>
+        </div>
+        <h3>Card Header</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas alias
+          quidem consectetur quaerat voluptas sed.
+        </p>
+      </article>
+      <article class="card">
+        <div class="cardcircle">
+          <i class="fa-solid fa-paw"></i>
+        </div>
+        <h3>Card Header</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas alias
+          quidem consectetur quaerat voluptas sed.
+        </p>
+      </article>
+    </section>
+  </body>
+</html>

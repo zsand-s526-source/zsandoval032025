@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <style>
+      /* Mobile First Design */
+      body {
+        background-color: steelblue;
+      }
+      h1,
+      h2 {
+        color: white;
+        text-align: center;
+      }
+
+      /*  Tablet and Desktop Design*/
+      @media screen and (min-width: 700px) {
+        body {
+          background-color: crimson;
+        }
+        h1,
+        h2 {
+          color: black;
+        }
+      }
+      @media screen and (min-width: 960px) {
+        body {
+          background-color: aquamarine;
+
+          h1,
+          h2 {
+            color: burlywood;
+          }
+        }
+      }
+      @media screen and (min-width: 1280px) {
+        body {
+          background-color: antiquewhite;
+        }
+        h1,
+        h2 {
+          background-color: brown;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Media Queries</h1>
+    <h2>Zyhannah Sandoval</h2>
+  </body>
+</html>
