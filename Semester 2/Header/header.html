@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <style>
+      /* Mobile first design */
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #pageheader {
+        background-color: antiquewhite;
+        padding: 1rem;
+        border-bottom: 1px solid silver;
+      }
+
+      #logo {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(241, 200, 97);
+        border-radius: 50%;
+        margin: auto;
+        display: block;
+        margin-bottom: 1rem;
+      }
+
+      #pageheader nav {
+        /* background-color: rgb(238, 150, 34); */
+        padding: 1rem;
+      }
+      #pageheader ul {
+        background-color: none;
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 80%;
+        margin: auto;
+      }
+      #pageheader li {
+        text-align: center;
+        padding: 1rem;
+        border: 1px solid silver;
+        color: white;
+        border-radius: 0.5rem;
+        background-color: #f86f03;
+      }
+      /* Table and Desktop view */
+      @media screen and (min-width: 700px) {
+        #pageheader {
+          display: flex;
+          justify-content: space-between;
+        }
+        #logo {
+          margin: 0;
+        }
+        #pageheader ul {
+          flex-direction: row;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="pageheader">
+      <img id="logo" src="Images/paws_logo (1).png" alt="Paws Logo" />
+
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Why Adopt</li>
+          <li>Pet Gallery</li>
+          <li>Testimonials</li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
