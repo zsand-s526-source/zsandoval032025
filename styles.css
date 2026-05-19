@@ -95,6 +95,32 @@ body {
   padding: 1rem;
 }
 
+#worksamples {
+  background-color: #b3c0db;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#worksamples ul {
+  list-style-type: none;
+}
+#worksamples i {
+  color: rgb(136, 154, 204);
+}
+
+#certificates {
+  background-color: #4ebfde;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#certificates ul {
+  list-style-type: none;
+}
+
+#certificates i {
+  color: lightblue;
+}
+
 #pagefooter {
   background-color: rgb(173, 181, 223);
   min-height: auto;
